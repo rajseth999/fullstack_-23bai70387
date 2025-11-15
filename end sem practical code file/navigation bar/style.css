@@ -1,0 +1,37 @@
+/* Navbar Styling */
+.navbar {
+    background-color: #333;
+    padding: 10px 20px;
+}
+
+/* Removing default list style */
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+/* Each item spacing */
+.navbar ul li {
+    margin-right: 20px;
+}
+
+/* Link styling */
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+}
+
+/* Hover effect */
+.navbar ul li a:hover {
+    background-color: #555;
+}
+
+/* Highlight Current Page */
+.navbar ul li a.active {
+    background-color: #04AA6D;  /* Green Highlight */
+    color: white;
+}
